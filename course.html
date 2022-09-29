@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="file:///C:/Users/KSHITIZ%20GARG/Desktop/GAURAV/fontawesome-free-5.15.3-web/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/kuk.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="scholarship.html">SCHOLARSHIP</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    
+        <!-------------------course -------------->
+    
+        <section class="course">
+            <h1>Course We Offer</h1>
+            <p>List of Professional courses run by the University Teaching Departments, Institutes, affiliated/maintained Colleges and through Distance Education :</p>
+            <div class="row">
+                <div class="course-col">
+                    <h2>After Intermediate</h2>
+                    <ul class="demo">
+                        <li> BTech/BE</li>
+                        <li>Integrated MTech</li>
+                        <li>BCA</li>
+                        <li>BArch</li>
+                        <li>BSc</li>
+                        <li>MBBS</li>
+                        <li>BDS</li>
+                        <li>BPharma</li><li>Nursing</li>
+                        <li>Paramedical etc.</li>
+                    </ul>
+                </div>
+                <div class="course-col">
+                    <h2>Degree</h2>
+                    <ul class="demo">
+                        <li> BTech/</li>
+                        <li>B.Pharmacy</li>
+                        <li>LL.B. 3 Year</li>
+                        <li>BA. LL.B. (Hons.) 5 Year></li>
+                        <li>BTM</li>
+                        <li>BIHBM</li>
+                        <li>BHM & CT</li>
+                        <li>B.Sc. (Hons.) Information Technology (BIT)</li>
+                        <li>BBA</li>
+                        <li>B.Ed.</li>
+                        <li>B.Ed. Special Education</li>
+                        <li>C.P.Ed.</li>
+                        <li>Shiksha Shastri</li>
+                        <li>B.Lib.& Inf. Sc.</li>
+                        <li>D.Ed.</li>
+                        <li>M.Lib. & Inf. Sc.</li>
+                        <li>LL.M.</li>
+                        <li>M.Phil.</li>
+                        </ul>
+                </div>
+                <div class="course-col">
+                    <h2>Post Graduation</h2>
+                    <ul  class="demo">
+                        <li>P.G. Diploma in Translation (English/Hindi)</li>
+                        <li>P.G. Diploma in Environmental Education</li>
+                        <li>M.A. in Environmental Education
+                        <li>P.G. Diploma in Journalism & Mass Communication.</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+         <!--------------FACILITIES---------------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/lib.jpg">
+                <h3>World Class Library</h3>
+                <p>The Library has a total plinth area of 114205 sq. feet besides beautiful well maintained lush green parks and vehicle parking. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/play.jpg">
+                <h3>Largest Play Ground</h3>
+                <p>Loved by people of all age groups, a water park is one of the best places for fun and recreation..</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Kuk, Kuk, University Canteen, Thanesar is locality in Thanesar City Kurukshetra District Haryana State .</p>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------footer----------------->
+    <section class="footer">
+        <h4>Our Courses</h4>
+        <p>List of Professional courses run by the University Teaching Departments, <br>Institutes, affiliated/maintained Colleges and through Distance Education :</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/KUKUNIVER/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/vc_kuk?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/kuk.updates/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/school/kurukshetra-university/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Made With <i class="far fa-heart"></i> by our Faculty</p>
+    </section>
+
+    <!--------------javascript for toggle menu---------------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

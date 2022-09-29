@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/kuk.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="scholarship.html">SCHOLARSHIP</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>ADMISSIONS</h1>
+    </section>
+    <div class="wrapper">
+        <div class="title">
+            AdmissioN Form
+        </div>
+        <div class="form">
+            <div class="input_field">
+                <label> First Name </label>
+                <input type="text" class="input" required>
+            </div>
+            <div class="input_field">
+                <label> Last Name </label>
+                <input type="text" class="input">
+            </div>
+            <div class="input_field">
+                <label> Password </label>
+                <input type="password" class="input">
+            </div>
+            <div class="input_field">
+                <label> Confirm Password </label>
+                <input type="password" class="input">
+            </div>
+            <div class="input_field">
+                <label> Gender </label>
+                <div class="custom_select">
+                    <select>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input_field">
+                <label>Email Address</label>
+                <input type="email" class="input">
+            </div>
+            <div class="input_field">
+                <label>Phone Number</label>
+                <input type="number" class="input">
+            </div>
+            <div class="input_field">
+                <label>Address</label>
+                <textarea class="textarea"></textarea>
+            </div>
+            <div class="input_field">
+                <label>Postal Code</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input_field terms">
+                <label class="check">
+                   <input type="checkbox">
+                   <span class="checkmark"></span>
+                </label>
+                <p>Agreed to terms and conditions</p>
+            </div>
+            <div class="input_field">
+                <a href="registration_succesfullydone.html"><input type="submit" value="Register" class="btn"></a>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

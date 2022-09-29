@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="file:///C:/Users/KSHITIZ%20GARG/Desktop/GAURAV/fontawesome-free-5.15.3-web/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/kuk.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="scholarship.html">SCHOLARSHIP</a></li>
+                    <li><a href="placement.html">PLACEMENT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-----------------about us content-------------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are one of the India's largest university</h1>
+                <p>The Kurukshetra University was established in 1956 as a unitary residential University and its foundation stone was laid by late Dr. Rajendra Prasad, the first President of India. Located in the holy city of Kurukshetra, land of the historical battle of 'Mahabharata' and the great message of Bhagwad Gita, its campus is situated on the western bank of Brahm Sarover (the holy tank) and extends over an area of over 400 acres. Starting with only the Department of Sanskrit, it has grown into a multi-faculty University as one of the premier centres for advanced study and research in the region.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!----------------footer----------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>To prepare a class of proficient scholars and professionals with ingrained human values and<br> commitment to expand the frontiers of knowledge for the advancement of society.</p>
+        
+        <div class="icons">
+            <a href="https://www.facebook.com/KUKUNIVER/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/vc_kuk?lang=en"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/kuk.updates/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/school/kurukshetra-university/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Made With <i class="far fa-heart"></i> by our Faculty</p>
+    </section>
+
+
+    <!--------------javascript for toggle menu---------------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
